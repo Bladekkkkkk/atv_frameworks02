@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
-    "scripts": {
-      "dev": "next dev",
-      "build": "next build",
-      "start": "next start",
-      "test": "vitest"
-    },
-  
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "vitest": "^2.0.4"
+  }
 }
