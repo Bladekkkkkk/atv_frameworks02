@@ -46,6 +46,11 @@ test('criaNovoVetor com os novos dois valores passados', () => {
 // Início do seu código
 //OBS: não use as funções reverse e join
 function inverteString(str) {
+    let resultado = "";
+    for (let i = str.length - 1; i >= 0; i--) {
+        resultado += str[i];
+    }
+    return resultado;
 }
 // Fim do seu código
 
